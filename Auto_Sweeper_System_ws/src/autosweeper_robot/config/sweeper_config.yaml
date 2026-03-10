@@ -1,0 +1,11 @@
+sweeper_node:
+  ros__parameters:
+    map_yaml: "/home/jerry/chapt7/chapt7_ws/src/fishbot_navigation2/maps/room.yaml"   # 请替换为实际绝对路径
+    robot_width: 0.22
+    step_size: 0.2
+    overlap: 0.05
+    min_region_area: 1.0                        # 最小区域面积（平方米），小于此值的区域被忽略
+
+    initial_x: 0.0      # 根据地图原点调整
+    initial_y: 0.0
+    initial_yaw: 0.0
